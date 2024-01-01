@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./css/app.css";
+import Header from "./component/Header";
+import TextField from "./component/TextField";
+import ButtonPanel from "./component/ButtonPanel";
+import AuthorsList from "./component/AuthorsList";
+import DayOfWeek from "./component/DayOfWeek";
+import Timer from "./component/Timer";
+import SearchAuthors from "./component/SearchAuthors";
+import CountryList from "./component/CountryList";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header title="Application React -Header" />
+      <TextField label="Nom" size={30} />
+      <ButtonPanel labels={["Valider", "Chercher", "Annuler"]} />
+      <DayOfWeek />
+      <Timer />
+      {/* <AuthorsList /> */}
+      {/* <SearchAuthors /> */}
+      <CountryList />
+    </>
   );
 }
 

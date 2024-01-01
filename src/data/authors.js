@@ -1,0 +1,60 @@
+const authors = [
+  {
+    id: 101,
+    name: "John Backus",
+    yearBorn: 1924,
+    country: "USA",
+    technology: "Fortran",
+    photo: "John Backus.jpg",
+  },
+  {
+    id: 102,
+    name: "Denis Ritchie",
+    yearBorn: 1941,
+    country: "USA",
+    technology: "Langage c",
+    photo: "Dennis Ritchie.jpg",
+  },
+  {
+    id: 103,
+    name: "Bjarne Stroustrup",
+    yearBorn: 1950,
+    country: "Danemark",
+    technology: "C++",
+    photo: "Bjarne Stroustrup.jpg",
+  },
+  {
+    id: 104,
+    name: "James Gosling",
+    yearBorn: 1955,
+    country: "Canada",
+    technology: "Java",
+    photo: "James Gosling.jpg",
+  },
+  {
+    id: 105,
+    name: "Tim Berners-Lee",
+    yearBorn: 1955,
+    country: "Royaume-Uni",
+    technology: "web/HTML",
+    photo: "Tim Berners-Lee.jpg",
+  },
+  {
+    id: 106,
+    name: "Brendan Eich",
+    yearBorn: 1956,
+    country: "USA",
+    technology: "javascript",
+    photo: "Brendan Eich.jpg",
+  },
+  {
+    id: 107,
+    name: "Erich Gamma",
+    yearBorn: 1961,
+    country: "Suisse",
+    technology: "Design Pattern/Eclipse/JUnit",
+    photo: "Erich Gamma.jpg",
+  },
+];
+
+export default authors;
